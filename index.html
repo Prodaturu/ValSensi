@@ -51,11 +51,21 @@
         font: 11px/1.5 monospace;
         white-space: pre-line;
       }
+
+      .pointer-lock-status {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        margin: 0;
+        color: #8e9bb1;
+        font: 11px/1.5 monospace;
+      }
     </style>
   </head>
   <body>
     <main class="calibration-area" aria-label="Calibration Area">
       <p class="calibration-area__label">Calibration Area</p>
+      <p class="pointer-lock-status">Pointer Lock: OFF</p>
       <p class="movement-readout" aria-live="polite">movementX: 0
 movementY: 0
 cumulativeX: 0
