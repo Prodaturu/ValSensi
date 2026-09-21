@@ -1,0 +1,23 @@
+{
+  "name": "valorant-sensitivity-identifier",
+  "version": "1.0.0",
+  "description": "frontend only website to help find the correct sensitivity in game based on overshooting and undershooting of the targets displayed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests configured\"",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:26831/Prodaturu/Valorant-Sensitivity-Identifier"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
